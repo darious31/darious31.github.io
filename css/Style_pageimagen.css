@@ -1,0 +1,22 @@
+@charset "utf-8";
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+header, nav, main, footer , body{
+    margin: 0 auto;
+    padding: 20px;
+    width: 80%;
+}
+header    {
+    background-color: #934DB0;
+    color: #FFFFFF;
+}
+nav   {
+    color: #437245;
+    width: 100px;
+    display: inline-block;
+}

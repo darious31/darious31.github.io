@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+	<style  type="text/css">
+		th,td{
+			border: 3px #DC8486d;
+			border-collapse: collapse;
+			text-align: center;
+		}
+		#style_tabla_1,#style_tabla_1 th,#style_tabla_1 td,{
+			border:3px solid #F393C6;
+			border-collapse: collapse;
+		}
+		#style_tabla_1 th{
+			background-color: #848181
+		}
+		#style_tabla_1 td{
+			background-color: #C1C1C1
+		}
+		.encabezado_par{color: #0E2086;
+		font-size:20px }
+		.encabezado_immpar{color: #2B8322;
+		font-size: 20px;
+		background-color: #96D7FF;}
+		#encabezado_verde{color: green}
+	    </style>
+	<link href="estilo_tablas.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <header>
+	  <h1 id="encabezado_verde">Ejercicio de tablas</h1>
+	  <h2>Tabla número 1</h2>
+	  <p>Describir la tabla</p>
+  </header>
+	<section>
+	<table border="3px">
+	<thead>
+		
+	  </thead>
+		<tr class="encabezado_immpar">
+			<th>apellido P</th>
+			<th>apellido M</th>
+			<th>Nombre</th>
+			<th>Número</th>
+			<th>Correo</th>
+			<th>Edad</th>
+			
+		
+		</tr>
+		<tr>
+	<td>Herrera</td>
+	<td>Palacios</td>
+	<td>Erika</td>
+	<td>2233665544</td>
+	<td>lks@gmail.com</td>
+	<td>22</td>
+	</tr>
+	
+		<tr>
+		<th>Huerta</th>
+		<th>Flores</th>
+		<th>Oscar</th>
+		<th>2255448844</th>
+		<th>odeh3@gmail.com</th>
+		<th>25</th>
+		</tr>
+		</table>
+	</section>
+<section>
+  <p>Descripción de la tabla</p>
+  <h2>Tabla número 2</h2>
+  <table id="style_tabla_1" width="600" border="3">
+	    <tbody>
+	      <tr class="encabezado_par">
+	        <th scope="col">Nombre</th>
+	        <th scope="col">Dirección</th>
+	        <th scope="col">Teléfono</th>
+	        <th scope="col">Celular</th>
+          </tr>
+	      <tr>
+	        <td>María</td>
+	        <td>5 de Mayo</td>
+	        <td>2154863</td>
+	        <td>224415879</td>
+          </tr>
+	      <tr>
+	        <td>José</td>
+	        <td>16 de Septiembre</td>
+	        <td>22665314</td>
+	        <td>2221487562</td>
+          </tr>
+	      <tr>
+	        <td>Juan</td>
+	        <td>31 oriente</td>
+	        <td>22485612</td>
+	        <td>2224856911</td>
+          </tr>
+	      <tr>
+	        <td>Fernanda</td>
+	        <td>5 sur</td>
+	        <td>22584621</td>
+	        <td>2245148655</td>
+          </tr>
+        </tbody>
+      </table>
+		
+		<section>
+		<h2>Tabla 3</h2>
+			<p>Descripción</p>
+			<table width="400" border="1">
+			  <tbody>
+			    <tr class="encabezado_immpar">
+			      <th scope="col">Marca</th>
+			      <th scope="col">modelo</th>
+			      <th scope="col"> Color</th>
+		        </tr>
+			    <tr>
+			      <td>Chevrolet</td>
+			      <td>Malibu</td>
+			      <td>Blanco</td>
+		        </tr>
+			    <tr>
+			      <td>VW</td>
+			      <td>Jetta</td>
+			      <td>Rojo</td>
+		        </tr>
+			    <tr>
+			      <td>Ford</td>
+			      <td>Fusion</td>
+			      <td>Negro</td>
+		        </tr>
+		      </tbody>
+		  </table>
+	
+		</section>
+		
+	
+	</section>
+<footer>
+  
+</footer>
+</body>
+</html>
